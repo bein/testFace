@@ -38,7 +38,13 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.security.Signature;
 
-
+/**
+ * Logeo.java
+ *
+ * Clase que obtiene datos del usuario logeado, esto con el uso del facebook-SDK
+ *
+ * @author alberto.quirino
+ */
 public class Logeo extends ActionBarActivity {
 
     private ProfilePictureView fotoPerfil;
@@ -130,7 +136,8 @@ public class Logeo extends ActionBarActivity {
      * getFriends
      *
      * Función encargada de obtener un Request de la persona logeada a fecabook;
-     * aquí es donde se obtiene una lista de amigos de la persona logeada.
+     * aquí es donde se obtiene una lista de amigos de la persona logeada en formato json. Esta
+     * información es procesada para ser mostrada en el Front-End.
      *
      */
     public void getFriends() {

@@ -13,15 +13,18 @@ import android.widget.RelativeLayout;
 
 import com.facebook.appevents.AppEventsLogger;
 
-
+/**
+ * Portada.java
+ *
+ * clase de entrada que muestra animación
+ *
+ * @author alberto.quirino
+ */
 public class Portada extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        requestWindowFeature(Window.FEATURE_NO_TITLE);
-//        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-//                WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.portada);
 
         Animation anim = AnimationUtils.loadAnimation(this, R.anim.anim_portada);

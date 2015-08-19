@@ -1,7 +1,11 @@
 package com.asdan.testface.util;
 
 /**
- * Created by alberto.quirino on 14/08/2015.
+ * Consulta.java
+ *
+ * Enum en el cual hago el modelo de base de datos de la aplicación.
+ *
+ * @author alberto.quirino
  */
 public enum Consulta {
 

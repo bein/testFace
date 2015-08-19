@@ -7,6 +7,15 @@ import android.database.sqlite.SQLiteDatabase.CursorFactory;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
+/**
+ * SQLite.java
+ *
+ * Clase que se usaría para persistir los datos en la based de datos SQLite de la aplicación;
+ * esto para el caso de solicitar dichos datos literales; pero como el logeo se implementó con
+ * facebook SDK; esto ya facilitó la persistencia.
+ *
+ * @author alberto.quirino
+ */
 public class SQLite extends SQLiteOpenHelper {
 
 	public SQLite(Context contexto, String nombre, CursorFactory factory,
