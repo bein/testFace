@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">testFace</string>
+
+    <string name="hello_world">BEIN Hello world!!!!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- títulos -->
+    <string name="title_activity_logeo">Logeo</string>
+
+    <!-- genéricos -->
+    <string name="imagen_descripcion">descripción</string>
+
+    <!-- facebook -->
+    <string name="facebook_app_id">694253204013061</string>
+
+</resources>

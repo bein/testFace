@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/layout_base"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blanco"
+    tools:context=".Portada" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:contentDescription="@string/imagen_descripcion"
+        android:src="@drawable/logo"
+        android:paddingTop="50dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp" />
+
+    <RelativeLayout
+        android:id="@+id/RL_Portada"
+        style="@style/fill"
+        android:background="@drawable/fondo"
+        android:orientation="vertical" >
+    </RelativeLayout>
+
+</LinearLayout>

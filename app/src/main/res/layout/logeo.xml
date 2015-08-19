@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/layout_base"
+    tools:context="com.asdan.logeoface.Logeo" >
+
+    <com.facebook.login.widget.ProfilePictureView
+        android:id="@+id/fotoPerfil"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="20sp"
+        android:autoLink="web|email"
+        android:textSize="15sp" />
+
+    <ScrollView
+        style="@style/fill_wrap"
+        android:scrollbarStyle="outsideOverlay" >
+
+        <LinearLayout
+            android:id="@+id/ListadoAmigos"
+            style="@style/fill_wrap"
+            android:baselineAligned="false"
+            android:orientation="vertical"/>
+    </ScrollView>
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
